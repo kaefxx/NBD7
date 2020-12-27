@@ -1,0 +1,13 @@
+C:\Users\strumien\Downloads\curl-7.74.0_2-win64-mingw\curl-7.74.0_2-win64-mingw\bin>curl.exe -XGET -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/5VkReE7OjZx6e5cIPuKDHcMFaji
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvrdZ+uQEA4O6YAZTImMeK8Mh15ibfFkA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16405>; rel="up"
+Last-Modified: Sat, 26 Dec 2020 23:39:46 GMT
+ETag: "4mWli7gDS94HUTAvdJzrFm"
+Date: Sat, 26 Dec 2020 23:47:56 GMT
+Content-Type: application/json
+Content-Length: 15
+
+{''test'': 123}

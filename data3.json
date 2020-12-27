@@ -1,0 +1,6 @@
+{
+    "name": "bike",
+    "color": "blue",
+    "wheels_number": 2,
+    "broken": false
+  }

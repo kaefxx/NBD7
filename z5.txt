@@ -1,0 +1,8 @@
+C:\Users\strumien\Downloads\curl-7.74.0_2-win64-mingw\curl-7.74.0_2-win64-mingw\bin>curl.exe -XPOST -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/data3 -d @data3_altered.json
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 27 Dec 2020 13:47:15 GMT
+Content-Type: application/json
+Content-Length: 0
+

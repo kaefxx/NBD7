@@ -1,0 +1,32 @@
+[
+  {
+    "name": "train",
+    "color": "green",
+    "wheels_number": 50,
+    "broken": false
+  },
+  {
+    "name": "car",
+    "color": "red",
+    "wheels_number": 4,
+    "broken": true
+  },
+  {
+    "name": "bike",
+    "color": "blue",
+    "wheels_number": 2,
+    "broken": false
+  },
+  {
+    "name": "ferry",
+    "color": "white",
+    "wheels_number": 0,
+    "broken": false
+  },
+  {
+    "name": "horse",
+    "color": "brown",
+    "wheels_number": 0,
+    "broken": false
+  }
+]

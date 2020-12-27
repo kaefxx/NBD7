@@ -1,0 +1,8 @@
+C:\Users\strumien\Downloads\curl-7.74.0_2-win64-mingw\curl-7.74.0_2-win64-mingw\bin> curl.exe -XGET -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/nbd
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 26 Dec 2020 23:27:57 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

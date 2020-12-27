@@ -1,0 +1,15 @@
+1.  curl.exe -XPUT -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/data1 -d @data1.json
+    curl.exe -XPUT -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/data2 -d @data2.json
+    curl.exe -XPUT -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/data3 -d @data3.json
+    curl.exe -XPUT -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/data4 -d @data4.json
+    curl.exe -XPUT -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/data5 -d @data5.json
+
+2.  curl.exe -XGET -i http://127.0.0.1:8098/buckets/s16405/keys/data1
+3.  curl.exe -XPOST -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/data1 -d @data1_altered.json
+4.  curl.exe -XPOST -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/data2 -d @data2_altered.json
+5.  curl.exe -XPOST -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys/data3 -d @data3_altered.json
+6.  curl.exe -XDELETE -i http://127.0.0.1:8098/buckets/s16405/keys/data1
+7.  curl.exe -XGET -i http://127.0.0.1:8098/buckets/s16405/keys/nbd
+8.  curl.exe -XPOST -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys -d "{''test'': 123}"
+9.  curl.exe -XGET -i http://127.0.0.1:8098/buckets/s16405/keys/5VkReE7OjZx6e5cIPuKDHcMFaji
+10. curl.exe -XDELETE -i http://127.0.0.1:8098/buckets/s16405/keys/5VkReE7OjZx6e5cIPuKDHcMFaji

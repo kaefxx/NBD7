@@ -1,0 +1,7 @@
+{
+    "name": "train",
+    "color": "green",
+    "wheels_number": 50,
+    "broken": false,
+    "passengers": 156
+  }

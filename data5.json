@@ -1,0 +1,6 @@
+{
+    "name": "horse",
+    "color": "brown",
+    "wheels_number": 0,
+    "broken": false
+  }

@@ -1,0 +1,6 @@
+{
+    "name": "car",
+    "color": "red",
+    "wheels_number": 4,
+    "broken": true
+  }

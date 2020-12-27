@@ -1,0 +1,8 @@
+C:\Users\strumien\Downloads\curl-7.74.0_2-win64-mingw\curl-7.74.0_2-win64-mingw\bin>curl.exe -XPOST -H "Content-Type: application/json" -i http://127.0.0.1:8098/buckets/s16405/keys -d "{''test'': 123}"
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s16405/keys/5VkReE7OjZx6e5cIPuKDHcMFaji
+Date: Sat, 26 Dec 2020 23:39:46 GMT
+Content-Type: application/json
+Content-Length: 0
